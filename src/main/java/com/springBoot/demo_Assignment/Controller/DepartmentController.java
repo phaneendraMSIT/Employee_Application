@@ -20,6 +20,8 @@ public class DepartmentController {
         this.departmentService = departmentService;
     }
 
+
+    //its retrieving all the depts
     @GetMapping("/department")
     public List<DepartmentDTO> findAll(){
         return departmentService.findAll();
