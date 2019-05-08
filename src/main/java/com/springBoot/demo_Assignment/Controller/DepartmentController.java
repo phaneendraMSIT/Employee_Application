@@ -33,7 +33,7 @@ public class DepartmentController {
         return departmentService.findById(departmentId);
     }
 
-    //its adding dept
+    //its adding dept - updated 2
     @PostMapping("/department")
     public  void addDepartment(@RequestBody Department department){
         departmentService.addDepartment(department);
